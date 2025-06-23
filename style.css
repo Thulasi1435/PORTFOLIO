@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, #FFCDB2, #FFB4A2);
+    background-size: cover;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.navbar .logo{
+    width: 100px;
+    cursor: pointer;
+    padding-top: 1px;
+    margin-left: -2%;
+    mix-blend-mode: darken;
+    background: transparent;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+    margin-top: -3%;
+    transition: 0.4s ease;
+}
+
+ul li a:hover{
+    color: #C14600;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 65px;
+    color: rgb(33, 28, 28);
+}
+.info h3{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span{
+    color:#C14600 ;
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 0.4s ease;
+}
+.info a:hover{
+    background-color: #C14600;
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+.image .girl{
+    mix-blend-mode: darken;
+    background: transparent;
+}
+.image:hover .girl{
+    left: 55%;
+
+}
+.footer-sub-container{
+    display: flex;
+    flex-direction: row;
+   justify-content: left;
+   padding: 10px;
+}
+.footer-card{
+    width: 200px;
+   border: 2px solid #F6F7C4;
+   margin: 10px;
+   box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.5);
+   border-radius: 10px;
+    background-image: linear-gradient(45deg, #FFCDB2, #FFB4A2);
+   transition: 0.1s ease-in-out;
+}
+.footer-card:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.f-element{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.footer-img{
+    width: 5vw;
+    height: 5vh;
+    mix-blend-mode: darken;
+    align-items: center;
+    padding-top: 10px;
+
+}
+.footer-card p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+}
