@@ -2,7 +2,7 @@
 
 "COMPANY": CODTECH
 
-"NAME": ASHRITHA CHILKURI
+"NAME": V LAXMI THULASI
 
 "INTERN ID": CT04DN1110
 
@@ -10,4 +10,4 @@
 
 "MENTOR": NEELA SANTOSH
 
-![Image](https://github.com/user-attachments/assets/e123315d-70fe-4a36-b41e-195a496c74f8)
+![Image](https://github.com/user-attachments/assets/71f3cc0d-7780-4f23-b32d-5910809444f1)
